@@ -13,10 +13,13 @@ public class find_sum_odd {
             System.out.print("Lutfen bir tam sayi giriniz: ");
             n= input.nextDouble();
 
-            if(n%2==0 && n%4==0){
+            if(n>0){
 
-                sum=sum+n;
+                if(n%2==0 && n%4==0){
 
+                    sum=sum+n;
+
+                }
             }
 
         }while(n>0);
